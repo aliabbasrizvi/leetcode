@@ -33,4 +33,3 @@ class Solution(object):
         all_ips.append(ip)
 
     return all_ips
-
