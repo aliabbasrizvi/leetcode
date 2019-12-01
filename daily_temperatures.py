@@ -1,19 +1,20 @@
-# WIP
 class Solution(object):
   def dailyTemperatures(self, T):
     """
     :type T: List[int]
     :rtype: List[int]
     """
-    maximas = []
-    max_location = [0] * len(T)
-    for idx, val in enumerate(T):
-      maximas.append((idx, val))
-    maximas = sorted(maximas, key=lambda x: x[1])
+    days_left = [0] * len(T)
 
-    return maximas
+    if len(T) <= 1:
+      return days_left
 
-
-if __name__ == '__main__':
-  s = Solution()
-  print s.dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73])
+    for idx in xrange(len(T) - 2, -1, -1):
+      candidate_day = idx + 1
+      while T[idx] >= T[candidate_day]:
+        if days_left[candidate_day] == 0:
+          candidate_day = idx
+          break
+        candidate_day = candidate_day + days_left[candidate_day]
+      days_left[idx] = candidate_day - idx
+    return days_left
