@@ -24,7 +24,8 @@ Solutions to problems on LeetCode. Profile here: https://leetcode.com/aliabbasri
 - generate_parenthesis.py: https://leetcode.com/problems/generate-parentheses
 - group_anagrams.py: https://leetcode.com/problems/group-anagrams
 - largest_tree_row.py: https://leetcode.com/problems/find-largest-value-in-each-tree-row
-- letter_combinations: https://leetcode.com/problems/letter-combinations-of-a-phone-number
+- letter_combinations.py: https://leetcode.com/problems/letter-combinations-of-a-phone-number
+- lca_binary_tree.py: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
 - max_increase_skyline.py: https://leetcode.com/problems/max-increase-to-keep-city-skyline
 - remove_k_digits.py: https://leetcode.com/problems/remove-k-digits
 - restore_ip_address.py: https://leetcode.com/problems/restore-ip-addresses
@@ -51,7 +52,7 @@ Solutions to problems on LeetCode. Profile here: https://leetcode.com/aliabbasri
 - (submitted) predict_the_winner.py: https://leetcode.com/problems/predict-the-winner
 - range_sum_of_bst.py: https://leetcode.com/problems/range-sum-of-bst
 - (submitted) rotated_array_search.py: https://leetcode.com/problems/search-in-rotated-sorted-array
-- short_word_encoding: https://leetcode.com/problems/short-encoding-of-words
+- short_word_encoding.py: https://leetcode.com/problems/short-encoding-of-words
 - (submitted) top_k_frequent.py: https://leetcode.com/problems/top-k-frequent-elements
 - two_keys_keyboard.py: https://leetcode.com/problems/2-keys-keyboard
 - unique_bst_2.py: https://leetcode.com/problems/unique-binary-search-trees-ii
