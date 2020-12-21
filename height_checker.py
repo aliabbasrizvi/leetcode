@@ -4,13 +4,10 @@ class Solution(object):
     :type heights: List[int]
     :rtype: int
     """
-    if len(heights) <= 1:
-      return 0
-    init_height = heights[0]
+    sorted_heights = sorted(heights)
+    count = 0
+    for idx, height in enumerate(heights):
+      if height != sorted_heights[idx]:
+        count += 1
 
-
-
-
-s = Solution()
-print s.heightChecker([1,1,4,2,1,3])
-print s.heightChecker([1,1,4,7])
+    return count
